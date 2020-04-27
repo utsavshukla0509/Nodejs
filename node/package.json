@@ -2,9 +2,9 @@
   "name": "node_demo",
   "version": "1.0.0",
   "description": "demo",
-  "main": "app.js",
+  "main": "node_redis/index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon index.js"
   },
   "author": "Utsav Shukla",
   "license": "ISC",
@@ -14,6 +14,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.5.4",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "redis": "^3.0.2"
   }
 }

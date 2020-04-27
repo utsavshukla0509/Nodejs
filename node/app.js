@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended: true})); 
 
 app.use('/api',Router);
 
